@@ -1,0 +1,25 @@
+Scenario,Markdown Factor,Temperature/Fuel Price/Unemployment,Holiday,Sales Impact (%)
+"High Temperature Increased Markdown (96°F), No Holiday",1.5,96.0,False,21.493157815384997
+"High Temperature Decreased Markdown (96°F), No Holiday",0.5,96.0,False,18.73399246978766
+"High Temperature Increased Markdown (96°F), Holiday",1.5,96.0,True,23.107379203073357
+"High Temperature Decreased Markdown (96°F), Holiday",0.5,96.0,True,20.44420097161699
+"Low Temperature Increased Markdown (16°F), No Holiday",1.5,16.0,False,24.693407261377942
+"Low Temperature Decreased Markdown (16°F), No Holiday",0.5,16.0,False,23.453759774664025
+"Low Temperature Increased Markdown (16°F), Holiday",1.5,16.0,True,26.54745039134452
+"Low Temperature Decreased Markdown (16°F), Holiday",0.5,16.0,True,25.524931372259296
+"Low Unemployment Increased Markdown (3.1%), No Holiday",1.5,3.1,False,24.89895252174663
+"Low Unemployment Decreased Markdown (3.1%), No Holiday",0.5,3.1,False,23.676593711152048
+"Low Unemployment Increased Markdown (3.1%), Holiday",1.5,3.1,True,26.752995651713135
+"Low Unemployment Decreased Markdown (3.1%), Holiday",0.5,3.1,True,25.74776530874734
+"High Unemployment Increased Markdown (3.4%), No Holiday",1.5,3.4,False,24.89895252174663
+"High Unemployment Decreased Markdown (3.4%), No Holiday",0.5,3.4,False,23.676593711152048
+"High Unemployment Increased Markdown (3.4%), Holiday",1.5,3.4,True,26.752995651713135
+"High Unemployment Decreased Markdown (3.4%), Holiday",0.5,3.4,True,25.74776530874734
+"Low Fuel Increased Markdown (2.66), No Holiday",1.5,2.66,False,22.672179677876155
+"Low Fuel Decreased Markdown (2.66), No Holiday",0.5,2.66,False,21.31304299038859
+"Low Fuel Increased Markdown (2.66), Holiday",1.5,2.66,True,24.536737213431483
+"Low Fuel Decreased Markdown (2.66), Holiday",0.5,2.66,True,23.414736704440887
+"High Fuel Increased Markdown (3.91), No Holiday",1.5,3.91,False,25.21552454974852
+"High Fuel Decreased Markdown (3.91), No Holiday",0.5,3.91,False,24.235828729676925
+"High Fuel Increased Markdown (3.91), Holiday",1.5,3.91,True,27.064599265823418
+"High Fuel Decreased Markdown (3.91), Holiday",0.5,3.91,True,26.36983657851873
