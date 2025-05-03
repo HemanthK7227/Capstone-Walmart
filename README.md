@@ -1,41 +1,36 @@
-# Walmart Sales Forecasting
+# Walmart Sales Performance Optimization: Predictive Modeling for Strategic Promotions
 
 ## Overview
-This project aims to forecast weekly sales for Walmart across various departments and stores using historical sales data. The solution is designed to help Walmart make strategic decisions related to inventory management, staffing, and marketing campaigns.
+This project aims to optimize Walmart's sales performance by leveraging advanced predictive modeling techniques. The focus is on using key business indicators, such as temperature, fuel prices, and unemployment rates, to forecast sales trends and improve promotional strategies. By doing so, Walmart can enhance profitability, maximize revenue during peak seasons, and increase customer satisfaction.
 
-## Dataset
-The dataset includes:
-- Weekly sales data across various Walmart stores and departments
-- Store-level information such as size and type
-- Holiday flags indicating major holidays
-- Temperature, fuel prices, CPI, and unemployment rate for each region
+## Objective
+The goal of this project is to develop a model that can predict sales trends accurately, enabling Walmart to refine its promotional strategies and inventory management. The project includes analyzing historical sales data, incorporating external factors, and optimizing marketing efforts.
 
-## Objectives
-- Forecast store-level weekly sales
-- Incorporate external features like holidays and economic indicators
-- Improve model accuracy using feature engineering and ML algorithms
+## Key Features
+- **Historical Sales Data:** Comprehensive data on sales across multiple Walmart stores.
+- **External Economic Indicators:** Includes temperature, fuel prices, and unemployment data that influence sales.
+- **Promotional Data:** Analyzes the impact of promotions on sales, including holidays and markdowns.
+- **Data Transformation:** Cleaned and transformed datasets ready for analysis, with missing values imputed and features engineered.
 
-## Tech Stack
-- **Python**
-- **Pandas, NumPy** for data processing
-- **Matplotlib, Seaborn** for visualization
-- **Scikit-learn, XGBoost** for modeling
-- **Jupyter Notebook** for experimentation
-
-## EDA & Insights
-- Identified seasonal trends and anomalies in sales
-- Noted significant sales impact around holiday weeks
-- Correlations between economic indicators and store performance
+## Technologies Used
+- **Python** for data analysis and modeling.
+- **Pandas** for data manipulation and preprocessing.
+- **Scikit-learn** for machine learning and model evaluation.
+- **Matplotlib** for data visualization.
 
 ## Model Development
-- Trained models using:
-  - Linear Regression
-  - Random Forest
-  - XGBoost Regressor
-- Used GridSearchCV for hyperparameter tuning
-- Final model evaluated on RMSE and R² Score
+The model uses a combination of time series analysis and regression techniques to predict sales based on the historical and external data provided. Key factors considered include:
+- **Store Size & Traffic:** Influences sales potential.
+- **Economic Indicators:** CPI, Unemployment, Fuel Prices.
+- **Promotional Strategies:** Impact of markdowns and holiday sales.
 
-## Results
-- Achieved [insert metric, e.g., RMSE of 0.15] on validation set
-- Sales spikes during holiday weeks accurately predicted
-- XGBoost model outperformed other baselines
+## Repository Structure
+- **data/**: Contains raw and processed datasets.
+- **models/**: Includes trained models and model evaluation scripts.
+- **notebooks/**: Jupyter notebooks with exploratory data analysis and model development.
+- **requirements.txt**: List of dependencies for the project.
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HemanthK7227/walmart-sales-performance-optimization.git
